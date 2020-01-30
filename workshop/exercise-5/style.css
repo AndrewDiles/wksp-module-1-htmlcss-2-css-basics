@@ -16,7 +16,7 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 24px;
     max-width: 600px;
-    margin: 0 10px; 
+    margin: 0 auto; 
     padding: 32px;
     align-content: center;
 }
@@ -24,7 +24,7 @@ body {
 h1, h2 {
     font-family: 'Bangers', cursive, italic;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 h2 {
@@ -40,15 +40,16 @@ h2 {
 }
 
 .content {
-    ......................;
+    background-color: #ffffff;
     border-radius: 5px;
     padding-top: 48px;
     padding: 20px;
+    margin-top: 50px;
 }
 
 
 
-.content, ul {
+.content ul {
     margin-top: 20px;
     padding-left: 20px;
 }
@@ -57,10 +58,6 @@ h2 {
     list-style-type: square;
 }
 
-.content {
-    background-color: #ffffff;
-}
-
 .second {
-    font-weight: bolder;
+    font-weight: bold;
 }
